@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>EquiNordic</title>
+    <meta name="description" content=""/>
+
+    <!-- This styles only adds some repairs on idevices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png"/>
+
+    <!-- Webfont Roboto/Condensed -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!--mobile menu-->
+    <link rel="stylesheet" href="css/offcanvas.css"/>
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Responsive Framework -->
+    
+    <link href="css/responsive.css" rel="stylesheet" media="screen"/>
+
+
+
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+
+    <style>
+        #itemid{
+            font-family: 'Roboto Condensed', sans-serif;
+            margin-bottom: 10px;
+            margin-top: 0;
+            font-weight: 700;
+            cursor: pointer;
+            text-align: center;
+        
+            margin-right: 397px
+            
+        }
+        @media only screen and (max-width: 768px) {
+            .article-title, .article-header h1 {
+    /* margin: 0px 79px 20px; */
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+         }
+        
+        @media only screen and (max-width : 480px){
+            #itemid{
+                font-family: 'Roboto Condensed', sans-serif;
+                margin-bottom: 10px;
+                margin-top: 0;
+                font-weight: 700;
+                cursor: pointer;
+                text-align: center;
+        
+                margin-right: 15px;
+            }    
+        
+            }
+        
+            h2{
+                font-weight: 700;
+                font-size: 45px;
+            }
+        .blog-bold{
+            font-weight: bold;
+        }
+        </style>
+
+</head>
+<body>
+<div class="wrapper">
+<div class="row row-offcanvas row-offcanvas-left">
+<div class="inner-wrapper">
+<div class="container">
+
+<!--Top Header-->
+<div class="header">
+    <div class="header-top">
+        <div class="row">
+            <div id="nav-logo"  class="col-sm-4">
+                <div class="logo">
+                    <a title="Industrix" href="index.html">
+                        <img alt="Industrix" src="img/EQN-Logo-Group1.jpg" class="logo-img">
+                    </a>
+                </div>
+                <!-- //logo -->
+            </div>
+            <!-- //col-md-3 -->
+
+            <div class="col-sm-8">
+                <div class="icon-box-wrapper">
+                    <div class="icon-box loginType" href="contactus.html">
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- //col-md-9 -->
+        </div>
+        <!-- //row -->
+    </div>
+    <!-- //header-top -->
+
+    <!-- Navigation Area -->
+    <div class="navbar navbar-default mainnav">
+
+        <!-- NAVBAR HEADER -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas"
+                data-target="#myNavmenu" data-canvas="#myNavmenuCanvas" data-placement="left">
+                <em class="fa fa-bars"></em>
+            </button>
+
+            <!-- HEAD SEARCH -->
+            <div class="head-search">
+                <form method="post" action="search" class="form-search">
+                    <div class="search">
+                        <em class="fa fa-search"></em><input type="text" size="20"
+                            class="form-control " maxlength="20" name="searchword">
+                    </div>
+                </form>
+            </div>
+            <!-- //HEAD SEARCH -->
+        </div>
+        <!-- //NAVBAR HEADER -->
+
+        <!-- NAVBAR MAIN -->
+        <!-- NAVBAR MAIN -->
+        <nav class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav">
+                <li class="active dropdown"><a href='index.html'>Home <strong class=""></strong></a>
+                    <!-- submenu-wrapper -->
+                    <div class="submenu-wrapper submenu-wrapper-topbottom">
+                        <!-- submenu-inner -->
+                        <div class="submenu-inner  submenu-inner-topbottom">
+
+                        </div>
+                        <!-- /submenu-inner -->
+                    </div>
+                    <!-- /submenu-wrapper -->
+                </li>
+                <li class="dropdown">
+                    <a href="focusarea.html">FOCUS AREA<strong class=""></strong></a>
+                </li>
+                <li class="dropdown">
+                    <a>Solutions<strong class="caret"></strong></a>
+                    <!-- submenu-wrapper -->
+                    <div class="submenu-wrapper submenu-wrapper-topbottom">
+                        <!-- submenu-inner -->
+                        <div class="submenu-inner  submenu-inner-topbottom">
+                            <ul class="dropdown-menu">
+                                <li><a href='Retailsolutions.html'>Retail Solutions</a></li>
+                                <li><a href='RetailsAdvise.html'>Retail Advisory Services</a></li>
+
+                            </ul>
+                        </div>
+                        <!-- /submenu-inner -->
+                    </div>
+                    <!-- /submenu-wrapper -->
+                </li>
+
+
+                <li class="dropdown">
+                    <a>PRODUCTS<strong class="caret"></strong></a>
+                    <!-- submenu-wrapper -->
+                    <div class="submenu-wrapper submenu-wrapper-topbottom">
+                        <!-- submenu-inner -->
+                        <div class="submenu-inner  submenu-inner-topbottom">
+
+
+                            <div class="column">
+                                <ul class="dropdown-menu">
+                                    <strong>
+                                            <h5 class="INDUSTRY">
+                                                INDUSTRY 4.0</h5>
+                                        </strong>
+                                    <li> <a href='Palletenroll.html'>RFAS-PalletEnroll</a></li>
+                                    <li><a href='cmas.html'>CMAS-ShrinkPin</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="column">
+                                <ul class="dropdown-menu">
+                                    <strong>
+                                        <h5 class="AI"
+                                            >
+                                            AI</h5>
+                                    </strong>
+                                    <li><a href="digishowroom.html">DigiShowroom</a></li>
+                                    <li> <a href="InteriorWaves.html" onclick="">Interior-Waves</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="column">
+                                <ul class="dropdown-menu">
+
+                                    <strong>
+                                        <h5 class="AI"
+                                            >
+                                            IOT</h5>
+                                    </strong>
+                                    <li><a href="InteriorWaves.html">IoT Conduits </a></li>
+                                    <li><a href="blocksense.html">BlockSense</a></li>
+
+                                </ul>
+                            </div>
+
+
+
+
+                        </div>
+                        <!-- /submenu-inner -->
+                    </div>
+                    <!-- /submenu-wrapper -->
+                </li>
+
+                <li class="dropdown">
+                    <a>LATEST NEWS<strong class="caret"></strong></a>
+                    <!-- submenu-wrapper -->
+                    <div class="submenu-wrapper submenu-wrapper-topbottom">
+                        <!-- submenu-inner -->
+                        <div class="submenu-inner  submenu-inner-topbottom">
+                            <ul class="dropdown-menu">
+                                <li><a href='pressrelease.html'>Press Release</a></li>
+                                <li><a href='blog.html'>Blog</a></li>
+
+
+                            </ul>
+                        </div>
+
+                        <!-- /submenu-inner -->
+                    </div>
+                    <!-- /submenu-wrapper -->
+                </li>
+
+
+
+                <li class="dropdown">
+                    <a href="about.html">About<strong class=""></strong></a>
+
+                </li>
+
+                <li class="dropdown">
+                    <a>CONTACT<strong class="caret"></strong></a>
+                    <!-- submenu-wrapper -->
+                    <div class="submenu-wrapper submenu-wrapper-topbottom">
+                        <!-- submenu-inner -->
+                        <div class="submenu-inner  submenu-inner-topbottom">
+                            <ul class="dropdown-menu">
+                                <li><a href="location.html">Locations</a></li>
+
+                                <li><a href="contactus.html">Contact Us</a></li>
+                                <li><a href="profiles.html">Profiles</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="clientarea.html">CLIENT AREA<strong class=""></strong></a>
+
+                </li>
+
+
+                <li class="dropdown">
+                    <a>WORK WITH US<strong class="caret"></strong></a>
+                    <!-- submenu-wrapper -->
+                    <div class="submenu-wrapper submenu-wrapper-topbottom">
+                        <!-- submenu-inner -->
+                        <div class="submenu-inner  submenu-inner-topbottom">
+                            <ul class="dropdown-menu">
+                                <li><a href="jobs.html">Jobs</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+
+
+
+
+            </ul>
+        </nav>
+        <!-- //navbar-collapse -->
+    </div>
+    <!-- //navbar -->
+</div>
+
+
+
+
+
+<div class="row">
+        <div class="col-md-12">
+            <div class="box-wrapper">
+                <!-- BREADCRUMBS -->
+                <ul class="breadcrumb">
+                    <li><a href='/DashBoard'>Home</a><span class="divider"></span></li>
+                    <li href='/DashBoard'>Blog</li>
+                </ul>
+            </div>
+            <!-- //custom-page-header -->
+        </div>
+    </div>
+    
+    
+    <!-- bLOG AREA -->
+    <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-8 col-xs-12">
+        <div class="box-wrapper mt-15 equal-column">
+
+
+
+            <div class="blog-item ">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="post-thumb floatleft">
+            
+                        <img src="img/Figure1.png" alt="RFScan Image">
+                        <br>
+                        <br>
+            
+            
+                    </div>
+                </div>
+            
+            
+                <div class="col-md-8">
+                    <div class="post floatright">
+                        <h2 class="article-title"><a  href="Supermarket.html">Supermarkets, Super Workers and Superbly
+                            Underprepared Supply Chains: How are our Food Retailers
+                            Fighting Against the Impact of Coronavirus?
+                             </a></h2>
+            
+                        <div class="post-meta clearfix">
+                            <ul>
+                               
+                                <li><em class="fa fa-user"></em><a class="author" >William Leng</a></li>
+
+                                <li><em class="fa fa-calendar"></em> 06th Jul, 2020 </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="post-article">
+                            <p><strong>Is it a bird? Is it a
+                                plane? No, it’s the
+                                UK’s supermarket
+                                staff! </strong>Now classed
+                                as essential workers
+                                during the COVID19 worldwide
+                                pandemic
+                                response, they are
+                                finally receiving the
+                                praise they deserve.
+                                That is, if you
+                                exclude reports of
+                                them being
+                                coughed at or
+                                verbally abused
+                                during shifts for
+                                enforcing protective
+                                measures. Supermarket employees are persevering through a crisis without
+                                precedent in their lifetimes. May they receive enough claps to compensate for their
+                                minimum wage salary, incredibly stressful work environments and general threat to
+                                life. .....<a 
+                                    href="Supermarket.html">Read More</a>
+            
+                            </p>
+                        </div>
+            
+                    </div>
+                </div>
+            
+            </div>
+            
+
+
+
+            
+
+            <div class="blog-item ">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="post-thumb floatleft">
+            
+                        <img src="img/surveillance.png" alt="RFScan Image" >
+                        <br>
+                        <br>
+            
+            
+                    </div>
+                </div>
+            
+            
+                <div class="col-md-8">
+                    <div class="post floatright">
+                        <h2 class="article-title"><a href="Sustainability.html">Sustainability in Supermarkets: Rage for the Machine  </a></h2>
+            
+                        <div class="post-meta clearfix">
+                            <ul>
+                              
+                                <li><em class="fa fa-user"></em><a class="author" >William Leng</a></li>
+
+                                <li><em class="fa fa-calendar"></em> 19th Mar, 2020 </li>
+                                                          </ul>
+                        </div>
+                        <div class="post-article">
+                            <p>Sustainability is a titanic issue facing our planet, 
+                                with food production and manufacturing practices a big 
+                                contributor to climate change. A right old iceberg in the 
+                                path of a greener society, if you will. Yet, fresh into a new
+                                 decade, the major UK supermarkets are still moving at a glacial 
+                                 pace to curb their food waste, plastic pollution and emissions. Naturally,
+                                  I have decided it’s time for someone to step up and solve this sustainability
+                                   issue for food retailers once and for all. ....<a 
+                                    href="Sustainability.html">Read More</a>
+            
+                            </p>
+                        </div>
+            
+                    </div>
+                </div>
+            
+            </div>
+            
+
+       
+
+
+
+
+
+
+
+            <div class="blog-item ">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="post-thumb floatleft">
+            
+                        <img src="img/Food-chain.jpg" alt="RFScan Image" >
+                        <br>
+                        <br>
+            
+            
+                    </div>
+                </div>
+            
+            
+                <div class="col-md-8">
+                    <div class="post floatright">
+                        <h2 class="article-title"><a  href="Food-store.html">The Food Store Experience (from a millennial perspective) </a></h2>
+            
+                        <div class="post-meta clearfix">
+                            <ul>
+                              
+                                <li><em class="fa fa-user"></em><a class="author" >William Leng</a></li>
+
+                                <li><em class="fa fa-calendar"></em> 06th Mar, 2020 </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="post-article">
+                            <p>When I first read this, I can’t help but admit that it struck a familiar chord with me.
+                                 Supermarkets can sometimes feel like they’re packed full of older generations who’ve
+                                  purchased a day pass to dawdle round the aisles, flitting aimlessly from homeware to 
+                                  clothing to the fruit and veg aisle. ....<a 
+                                    href="Food-store.html">Read More</a>
+            
+                            </p>
+                        </div>
+            
+                    </div>
+                </div>
+            
+            </div>
+            
+
+
+
+
+    
+    
+            <div class="blog-item ">
+        
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="post-thumb floatleft">
+                           
+                            <img src="img/download.jpg" alt="RFScan Image" >
+                            
+                             <h5 class="blog-bold">Hydroponic Architecture:</h5>   
+                            
+                        </div>
+                    </div>
+                
+                    <div class="col-md-8">
+                        <div class="post floatright">
+                            <h2 class="article-title"><a href="farm-to-plate.html">Farm-to-plate in 30 seconds: Farm enRoll hydroponics to redefine ‘fresh’ food</a></h2>
+                
+                             <div class="post-meta clearfix">
+                                <ul>
+                                
+                                    <li><em class="fa fa-user"></em><a class="author" >William Leng</a></li>
+                                    <li><em class="fa fa-calendar"></em> 15 NOV 2019</li>
+                                    
+                                </ul>
+                            </div> 
+                              <div class="post-article">
+                                    <p>	Hydroponic farming – the growth of produce without soil and over 80% less water than traditional farming – is nothing new. In fact, it dates back all the way to the posthumous publication of a Francis Bacon book in 1627, which sparked a widespread interest in hydroculture as a whole. Having said that, hydroponics is becoming more popular now than ever. ....<a href="/farm-to-plate.html">Read More</a>
+    
+                                       </p>
+                            </div>
+                            
+                        </div> 
+                    </div>
+                </div>
+    
+    
+    
+                <div class="blog-item ">
+        
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="post-thumb floatleft">
+                               
+                                <img src="img/blog23.png" alt="RFScan Image" >
+                                 <br>
+                                 <br>
+                                 <h5 class="blog-bold">Rescuing the Stock Taker: </h5>   
+                                
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-8">
+                            <div class="post floatright">
+                                <h2 class="article-title"><a  href="rescuing.html">
+                                    Rescuing the Stock Taker: 
+                                     </a></h2>
+                    
+                                 <div class="post-meta clearfix">
+                                    <ul>
+                                       
+                                        <li><em class="fa fa-user"></em><a class="author" >William Leng</a></li>
+                                        <li><em class="fa fa-calendar"></em> 25 Oct 2019</li>
+                                        
+                                    </ul>
+                                </div> 
+                                  <div class="post-article">
+                                        <p>Automated Guided Vehicles (AGVs) have been augmenting internal
+                                                logistics for some time now, and the technology has proved to be 
+                                                extremely valuable, though not perfect,
+                                                 in Industry 4.0 initiatives to increase automation....<a  href="/rescuing.html">Read More</a>
+            
+                                           </p>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+    
+    
+    
+           
+    
+            <div class="blog-item ">
+        
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="post-thumb floatleft">
+                               
+                                <img src="img/blog22.jpg" alt="RFScan Image" >
+                                 <br>
+                                 <br>
+                                 <h5 class="blog-bold">Automated Guided Vehicle (AGV)</h5>   
+                                
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-8">
+                            <div class="post floatright">
+                                <h2 class="article-title"><a  href="agvs-vs-amrs.html">AGVs vs. AMRs  </a></h2>
+                    
+                                 <div class="post-meta clearfix">
+                                    <ul>
+                                      
+                                        <li><em class="fa fa-user"></em><a class="author" >William Leng</a></li>
+                                        <li><em class="fa fa-calendar"></em> 15 Aug 2019</li>
+                                        
+                                    </ul>
+                                </div> 
+                                  <div class="post-article">
+                                        <p>Automated Guided Vehicles (AGVs) have been augmenting internal
+                                                logistics for some time now, and the technology has proved to be 
+                                                extremely valuable, though not perfect,
+                                                 in Industry 4.0 initiatives to increase automation....<a  href="/agvs-vs-amrs.html">Read More</a>
+     
+                                           </p>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+    
+    
+                    
+    
+    
+               
+        
+                 
+            
+          
+        
+    
+        </div>
+                        
+    </div>
+       
+    
+       
+
+    </div>
+
+    <div class="footer-widget box-wrapper ">
+        <div class="row">
+
+
+
+            <div class="col-sm-4  col-lg-4 col-xs-12">
+                <div class="custom-menu-widget">
+                    <h2 class="widget-title "><span> INFORMATION</span></h2>
+
+                    <div class="custom-widget">
+                        <hr>
+                        <p>Copyright EquiNordic ApS <br>
+                            2016-2021. All rights <br>
+                            reserved worldwide. Site<br>
+                            content is owned by<br>
+                            EquiNordic Group, its<br>
+                            partners and affiliates.<br></p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="custom-menu-widget">
+
+                <div class="col-sm-4 col-md-6 col-lg-4 col-xs-12">
+                    <div class="footer-right" id="footer-right">
+                        <h2 id="social-icon" class="widget-title "><span>SOCIAL
+                                RADIO</span></h2>
+                        <a href='https://www.linkedin.com/company/EquiNordic/. ' title="Linkedin"
+                            target="_blank"><img id="linkedin"
+                                class="img-responsive widget-title " src="img/linkedin.png"
+                                alt="worldmap" /></a>
+                        <div class="social-icon pull-right social-fix">
+
+
+
+
+
+
+
+
+
+                        </div>
+                        <!-- //social-icon -->
+                    </div>
+                    <!-- //footer-right -->
+                </div>
+            </div>
+
+
+            <div class="col-sm-4 col-lg-4 col-xs-12">
+                <div class="custom-menu-widget" id="img-eqn">
+                    <div class="map">
+                        <img src="img/EquiNordicLogo3Common.jpg" alt="worldmap" />
+                    </div>
+                    <hr>
+                    <div class="widget-title ">
+                        <h5> <span>Next Generation Solutions for <br />Industry 4.O </span></h5>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- //row -->
+    </div>
+
+    <div class="copyright-text box-wrapper">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="left-copy-text">
+                    <p>Powered by&nbsp;<a href="http://www.EquiNordic.com" title="">EquiNordic
+                            Systems</a></p>
+                </div>
+                <!-- //left-copy-text -->
+            </div>
+            <!-- //col-md-6 -->
+
+            <div class="col-md-6 col-sm-6">
+                <div class="footer-right">
+                    <div class="social-icon pull-right social-fix">
+                        <ul>
+                            <li><a href="https://rss.app/embed/v1/wall/OqNjj6WTcZcza5bm"
+                                title="RSS" target="_blank"><em class="fa fa-rss"></em></a></li>
+
+                           
+
+                          
+
+                           
+
+                            <li><a href='https://www.linkedin.com/company/EquiNordic/. ' title="Linkedin"
+                                target="_blank"><em class="fa fa-linkedin"></em></a></li>
+
+                            
+
+                          
+                        </ul>
+                    </div>
+                    <!-- //social-icon -->
+                </div>
+                <!-- //footer-right -->
+            </div>
+            <!-- //col-md-6 -->
+
+        </div>
+        <!-- //row -->
+    </div>
+        <!-- .copyright-text -->
+        
+        <!-- .inner-wrapper -->
+      
+      
+        <div class="offcanvas-wrapper hidden-lg hidden-md hidden-sm sidebar-offcanvas">
+            <div class="sidebar-nav">
+          
+                <div class="sidebar-header">
+                    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas">&times;</button>
+    
+                </div>
+          
+                <!--Menu-->
+                <ul>
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="focusarea.html" >FOCUS AREA<strong class=""></strong></a>
+                    </li>
+                  
+                   
+                  <li><a  title="">Solutions</a>
+                      <ul>
+                        <li><a href="Retailsolutions.html">Retail Solutions</a></li>
+                        <li><a href="RetailsAdvise.html">Retail Advisory Services</a></li>   
+                      </ul>
+                  </li>
+                  <li><a >PRODUCTS</a>
+                      <ul>
+                        <li> <a href="Palletenroll.html">RFAS-PalletEnroll</a></li>
+                        <li><a href="cmas.html">CMAS-ShrinkPin</a></li>
+                        <li><a href="digishowroom.html">DigiShowroom</a></li>
+                        <li> <a href="InteriorWaves.html" onclick="" >Interior-Waves</a></li>
+                        <li><a  href="IOTconduits.html">IoT Conduits </a></li>
+                        <li><a href="blocksense.html"  >BlockSense</a></li>
+                   
+                      </ul>
+                  </li>
+                    
+                    <li><a >LATEST NEWS</a>
+                        <ul>
+                            <li><a href='pressrelease.html'>Press Release</a></li>
+                            <li><a href='blog.html'>Blog</a></li>
+                                        </ul>
+                    </li>
+                    <li><a href="about.html" >About<strong class=""></strong></a></li>
+                    
+                  <li><a >Contact</a>
+                      <ul>
+                        <li><a href="location.html">Locations</a></li>
+                         
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="profiles.html">Profiles</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="clientarea.html">CLIENT AREA<strong class=""></strong></a>   </li>
+          
+                  
+                </ul>
+          
+            </div>
+            </div>
+<!-- .copyright-text -->
+</div>
+<!--.container -->
+
+</div>
+<!-- .inner-wrapper -->
+
+
+
+<!-- .offcanvas-wrapper -->
+
+</div>
+<!-- .row-offcanvas -->
+</div>
+<!-- .wrapper -->
+
+<!--Start script-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.scrollUp.js"></script>
+<script src="js/offcanvas.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/jquery.matchHeight.js"></script>
+<script src="js/script.js"></script>
+<!--End script    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

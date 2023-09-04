@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>EquiNordic</title>
+    <meta name="description" content="" />
+
+    <!-- This styles only adds some repairs on idevices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+    <!-- Webfont Roboto/Condensed -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!--mobile menu-->
+    <link rel="stylesheet" href="css/offcanvas.css"/>
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Responsive Framework -->
+    
+    <link href="css/responsive.css" rel="stylesheet" media="screen"/>
+
+
+
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+    #NEWS{cursor: pointer;}
+    .p-color{color: blue; padding-left: 80px;}
+    .our-para{clear:left; font-size: 14px;line-height: 22px;    font-family: 'Noto Sans', sans-serif;font-weight: 300;}
+
+
+    .content-boxes{
+        padding: 20px;
+    background-color: white;
+    margin-left: -11px;
+    width: 73%;
+    height: 657px;
+    }
+
+    @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+       .content-boxes {
+        padding: 20px;
+        background-color: white;
+        margin-left: 1px;
+        width:100% !important;
+        height: auto;
+        margin-top: 10px!important;
+    }
+    .content-boxes1 {
+    padding:20px;
+    background-color: white;
+    width: 108% !important;
+    margin-left: -11px !important;
+    height:auto !important;
+
+}
+.pallet{
+    width: 100% !important;
+    margin-left: 1px !important;
+    padding-top: 10px !important;
+}
+  }
+
+
+.right-side-content{
+    padding-left:20px;
+}
+.main-content{
+    padding-top:20px; 
+}
+.content div{
+    padding-bottom: 10px;
+   
+}
+.p-pallet{
+    margin-top: 6px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.content-boxes1 {
+    padding:20px;
+    background-color: white;
+    width: 100%;
+    margin-left: -15px;
+    height: 657px;
+
+}
+.pallet{
+    width: 279px;
+    margin-left: 95px;
+}
+#p-slider{padding-top: 5px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+
+
+
+
+.vertical .carousel-inner {
+    height: 100%;
+  }
+  
+  .carousel.vertical .item {
+     -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+     -ms-transition: 0.6s ease-in-out top;
+     -o-transition: 0.6s ease-in-out top;
+     transition: 0.6s ease-in-out top;
+  }
+  
+  .carousel.vertical .active {
+     top: 0;
+  }
+  
+  .carousel.vertical .next {
+     top: 400px;
+  }
+  
+  .carousel.vertical .prev {
+     top: -400px;
+  }
+  
+  .carousel.vertical .next.left,
+  .carousel.vertical .prev.right {
+     top: 0;
+  }
+  
+  .carousel.vertical .active.left {
+     top: -400px;
+  }
+  
+  .carousel.vertical .active.right {
+     top: 400px;
+  }
+
+
+  .carousel-inner p{
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+  background-color: transparent;
+   margin: -23px 7px 11px 0px;
+
+    
+  }
+
+
+ .jsocialfeed .jsf-date {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.8) inset, 0 1px 3px rgba(0, 0, 0, 0.6) inset;
+    padding: 2px 10px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    font-size: smaller;
+}
+
+    .border{
+        border: 1px;
+        border-color: red;
+    }
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+        line-height: 1;
+    margin-right: 6px;
+    }
+
+
+    h2{
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 17px;
+    }
+    .fa{
+       
+    top: -16px;
+    
+    outline: 0;
+    width: 16px;
+    height: 16px;
+    
+    float: right; 
+    font-size: 15px;
+    color: rgb(78, 73, 73);
+    margin-top: 13px;
+
+    }
+
+    .col-xs-12{
+        position: relative;
+    min-height: 1px;
+    padding-right: 14px;
+    padding-left: 15px;
+    margin-right: -30px;
+    }
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="wrapper">
+<div class="row row-offcanvas row-offcanvas-left">
+<div class="inner-wrapper">
+<div class="container">
+    <div class="header">
+        <div class="header-top">
+            <div class="row">
+                <div id="nav-logo"  class="col-sm-4">
+                    <div class="logo">
+                        <a title="Industrix" href="index.html">
+                            <img alt="Industrix" src="img/EQN-Logo-Group1.jpg" class="logo-img" alt="img">
+                        </a>
+                    </div>
+                    <!-- //logo -->
+                </div>
+                <!-- //col-md-3 -->
+
+                <div class="col-sm-8">
+                    <div class="icon-box-wrapper">
+                        <div class="icon-box loginType" href="contactus.html">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- //col-md-9 -->
+            </div>
+            <!-- //row -->
+        </div>
+        <!-- //header-top -->
+
+        <!-- Navigation Area -->
+        <div class="navbar navbar-default mainnav">
+
+            <!-- NAVBAR HEADER -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="offcanvas"
+                    data-target="#myNavmenu" data-canvas="#myNavmenuCanvas" data-placement="left">
+                    <em class="fa fa-bars"></em>
+                </button>
+
+                <!-- HEAD SEARCH -->
+                <div class="head-search">
+                    <form method="post" action="search" class="form-search">
+                        <div class="search">
+                            <em class="fa fa-search"></em><input type="text" size="20"
+                                class="form-control " maxlength="20" name="searchword">
+                        </div>
+                    </form>
+                </div>
+                <!-- //HEAD SEARCH -->
+            </div>
+            <!-- //NAVBAR HEADER -->
+
+            <!-- NAVBAR MAIN -->
+            <!-- NAVBAR MAIN -->
+            <nav class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav">
+                    <li class="active dropdown"><a href='index.html'>Home <strong class=""></strong></a>
+                        <!-- submenu-wrapper -->
+                        <div class="submenu-wrapper submenu-wrapper-topbottom">
+                            <!-- submenu-inner -->
+                            <div class="submenu-inner  submenu-inner-topbottom">
+
+                            </div>
+                            <!-- /submenu-inner -->
+                        </div>
+                        <!-- /submenu-wrapper -->
+                    </li>
+                    <li class="dropdown">
+                        <a href="focusarea.html">FOCUS AREA<strong class=""></strong></a>
+                    </li>
+                    <li class="dropdown">
+                        <a>Solutions<strong class="caret"></strong></a>
+                        <!-- submenu-wrapper -->
+                        <div class="submenu-wrapper submenu-wrapper-topbottom">
+                            <!-- submenu-inner -->
+                            <div class="submenu-inner  submenu-inner-topbottom">
+                                <ul class="dropdown-menu">
+                                    <li><a href='Retailsolutions.html'>Retail Solutions</a></li>
+                                    <li><a href='RetailsAdvise.html'>Retail Advisory Services</a></li>
+
+                                    </ul>
+                            </div>
+                            <!-- /submenu-inner -->
+                        </div>
+                        <!-- /submenu-wrapper -->
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a>PRODUCTS<strong class="caret"></strong></a>
+                        <!-- submenu-wrapper -->
+                        <div class="submenu-wrapper submenu-wrapper-topbottom">
+                            <!-- submenu-inner -->
+                            <div class="submenu-inner  submenu-inner-topbottom">
+
+
+                                <div class="column">
+                                    <ul class="dropdown-menu">
+                                        <strong>
+                                                <h5 class="INDUSTRY">
+                                                    INDUSTRY 4.0</h5>
+                                          </strong>
+                                        <li> <a href='Palletenroll.html'>RFAS-PalletEnroll</a></li>
+                                        <li><a href='cmas.html'>CMAS-ShrinkPin</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <ul class="dropdown-menu">
+                                        <strong>
+                                            <h5 class="AI"
+                                                >
+                                                AI</h5>
+                                        </strong>
+                                        <li><a href="digishowroom.html">DigiShowroom</a></li>
+                                        <li> <a href="InteriorWaves.html" onclick="">Interior-Waves</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="column">
+                                    <ul class="dropdown-menu">
+
+                                        <strong>
+                                            <h5 class="AI"
+                                                >
+                                                IOT</h5>
+                                        </strong>
+                                        <li><a href="InteriorWaves.html">IoT Conduits </a></li>
+                                        <li><a href="blocksense.html">BlockSense</a></li>
+
+                                    </ul>
+                                </div>
+
+
+
+
+                            </div>
+                            <!-- /submenu-inner -->
+                        </div>
+                        <!-- /submenu-wrapper -->
+                    </li>
+
+                    <li class="dropdown">
+                        <a>LATEST NEWS<strong class="caret"></strong></a>
+                        <!-- submenu-wrapper -->
+                        <div class="submenu-wrapper submenu-wrapper-topbottom">
+                            <!-- submenu-inner -->
+                            <div class="submenu-inner  submenu-inner-topbottom">
+                                <ul class="dropdown-menu">
+                                    <li><a href='pressrelease.html'>Press Release</a></li>
+                                    <li><a href='blog.html'>Blog</a></li>
+
+
+                                </ul>
+                            </div>
+
+                            <!-- /submenu-inner -->
+                        </div>
+                        <!-- /submenu-wrapper -->
+                    </li>
+
+
+
+                    <li class="dropdown">
+                        <a href="about.html">About<strong class=""></strong></a>
+
+                    </li>
+
+                    <li class="dropdown">
+                        <a>CONTACT<strong class="caret"></strong></a>
+                        <!-- submenu-wrapper -->
+                        <div class="submenu-wrapper submenu-wrapper-topbottom">
+                            <!-- submenu-inner -->
+                            <div class="submenu-inner  submenu-inner-topbottom">
+                                <ul class="dropdown-menu">
+                                    <li><a href="location.html">Locations</a></li>
+
+                                    <li><a href="contactus.html">Contact Us</a></li>
+                                    <li><a href="profiles.html">Profiles</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="clientarea.html">CLIENT AREA<strong class=""></strong></a>
+
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a>WORK WITH US<strong class="caret"></strong></a>
+                        <!-- submenu-wrapper -->
+                        <div class="submenu-wrapper submenu-wrapper-topbottom">
+                            <!-- submenu-inner -->
+                            <div class="submenu-inner  submenu-inner-topbottom">
+                                <ul class="dropdown-menu">
+                                    <li><a href="jobs.html">Jobs</a></li>
+
+                                     </ul>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+
+
+                </ul>
+            </nav>
+            <!-- //navbar-collapse -->
+        </div>
+        <!-- //navbar -->
+    </div>
+
+
+
+
+
+
+<div class="container main-content">
+    <div class="row">
+        <div class=" col-md-3 ">
+            <div class="content-boxes1 content" id="NEWS">
+                <a class="left carousel-control" href="#myCarousel"  role="button"
+                                            data-slide="prev">
+                                            <em class="fa fa-angle-left" aria-hidden="true"></em>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a id="next-width" class="right carousel-control" href="#myCarousel"  role="button"
+                                            data-slide="next" >
+                                            <em class="fa fa-angle-right" aria-hidden="true"></em>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+              
+                                        <br/>
+                <h2>INDUSTRY NEWS
+                    </h2>
+                     <!-- Carousel nav -->
+                  
+                <div id="myCarousel" class="carousel slide vertical">
+                    
+                    <!-- Carousel items -->
+                    <div class="carousel-inner" >
+                        <div class="active item">
+                                <img class="pull-left" id="pallet-slider-img" src='img/cmas1.png'alt="img"><br/>
+                                <p class="p-color">Treat your hotel customers like royalty…and your data lik...</p>
+                               <br/>
+                              
+                                <p id="p-slider">Share this post: I am back from HITEC ,
+                                    the world’s premier hospitality technology 
+                                    show, in rainy (just not as rai...</p>
+                      
+                                <img class="pull-left" id="pallet-slider-img" src='img/managing.png'alt="img"><br/>
+                                <p class="p-color">Managing Engineering Complexity: Are you ready? </p><br/>
+                               
+                                <p id="p-slider">Share this post: Connected – This is one of the
+                                     defining words of our world today. We have never been more connect...</p>
+
+                                    </div>
+                        <div class="item">
+                          
+                          <img class="pull-left" id="pallet-slider-img" src='img/chat.png' alt="img"><br/>
+                          <p class="p-color">Managing Engineering Complexity: Are you ready? </p><br/>
+                        
+                          <p id="p-slider">Share this post: Connected – This is one of the
+                               defining words of our world today. We have never been more connect...</p>
+
+            
+
+
+
+
+
+                                <img class="pull-left" id="pallet-slider-img" src='img/connection.png' alt="img"><br/>
+                                <p class="p-color">Get connected and learn how to drive your own digital tra... </p><br/>
+                               
+                                <p id="p-slider" >Share this post: 2017 was the year of transformation,
+                                     with almost every industry investing in IoT. At the end of..</p>
+
+                                          </div>
+
+                        <div class="item">
+                          <img class="pull-left" id="pallet-slider-img" src='img/meet.png' alt="img"><br/>
+                                     <p class="p-color">Meet you at MaximoWorld? </p><br/><br/>
+                                    <br>
+                                     <p id="p-slider"> Share this post: 2017 was the year of transformation,
+                                          with almost every industry investing in IoT. At the end of..</p>
+
+                   </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+             
+              
+            </div>
+            <div class="content-boxes col-md-9">
+                <div class="row"> 
+                 <div class="content col-md-6">
+                   
+                   <div>
+                     <img class="pull-left"  src='img/PalletEnroll-logo.png' alt="img"><br/>
+                     <p class="our-para" >Our popular IoT framework management product for 
+                     our RFID-As-A<br/>-Service (RFAS) solution stream. Used 
+                     for tracking logistics-returnables<br/> including pallets, 
+                     crates, cartons worldwide. Identify, Ship, Locate,<br/> Retreive
+                      and Reuse with unique RFID EPC tags.</p>
+                     
+                   </div>
+                 </div>
+                 <div class="content col-md-6">
+           
+                     <img src='img/RFaS1.jpg' alt="img">
+           
+           
+                 </div>
+           
+           </div>
+           
+                   <div class="row">
+                     <div class="col-md-6">
+                         <img class="pallet" id="border" src='img/shutterstock_568954828.jpg' alt="img">
+                     </div>
+                     <div class="col-md-6">
+                       <h3></h3>
+           
+                       <img class="pallet" id="border" src='img/PalletEnroll.png' alt="img">
+                    </div>
+                    <br>
+                    <div class="col-md-12">
+                        
+                       <p class="p-pallet">  Pallet-Enroll also works with Dock-Enroll, our Marine
+                        & Aviation Import Handling application to provide a
+                         digital dashboard for tracking the movement of all
+                          pallets within and across warehouses, along with dock 
+                          scheduling, terminal fees and other handling charges.</p>
+                          <br/>
+                          <br/>
+                      </div>
+                   </div>
+                 </div>
+          </div>
+     
+  
+        </div>
+      
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+        <div class="footer-widget box-wrapper ">
+            <div class="row">
+
+
+
+                <div class="col-sm-4  col-lg-4 col-xs-12">
+                    <div class="custom-menu-widget">
+                        <h2 class="widget-title "><span> INFORMATION</span></h2>
+
+                        <div class="custom-widget">
+                            <hr>
+                            <p>Copyright EquiNordic ApS <br>
+                                2016-2021. All rights <br>
+                                reserved worldwide. Site<br>
+                                content is owned by<br>
+                                EquiNordic Group, its<br>
+                                partners and affiliates.<br></p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="custom-menu-widget">
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 col-xs-12">
+                        <div class="footer-right" id="footer-right">
+                            <h2 id="social-icon" class="widget-title "><span>SOCIAL
+                                    RADIO</span></h2>
+                            <a href='https://www.linkedin.com/company/EquiNordic/. ' title="Linkedin"
+                                target="_blank"><img id="linkedin"
+                                    class="img-responsive widget-title " src="img/linkedin.png"
+                                    alt="worldmap" /></a>
+                            <div class="social-icon pull-right social-fix">
+
+
+
+
+
+
+
+
+
+                            </div>
+                            <!-- //social-icon -->
+                        </div>
+                        <!-- //footer-right -->
+                    </div>
+                </div>
+
+
+                <div class="col-sm-4 col-lg-4 col-xs-12">
+                    <div class="custom-menu-widget" id="img-eqn">
+                        <div class="map">
+                            <img src="img/EquiNordicLogo3Common.jpg" alt="worldmap" />
+                        </div>
+                        <hr>
+                        <div class="widget-title ">
+                            <h5> <span>Next Generation Solutions for <br />Industry 4.O </span></h5>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- //row -->
+        </div>
+
+        <div class="copyright-text box-wrapper">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="left-copy-text">
+                        <p>Powered by&nbsp;<a href="http://www.EquiNordic.com" title="">EquiNordic
+                                Systems</a></p>
+                    </div>
+                    <!-- //left-copy-text -->
+                </div>
+                <!-- //col-md-6 -->
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="footer-right">
+                        <div class="social-icon pull-right social-fix">
+                            <ul>
+                                <li><a href="https://rss.app/embed/v1/wall/OqNjj6WTcZcza5bm"
+                                    title="RSS" target="_blank"><em class="fa fa-rss"></em></a></li>
+                               
+
+                               
+
+                              
+
+                               
+
+                                <li><a href='https://www.linkedin.com/company/EquiNordic/. ' title="Linkedin"
+                                    target="_blank"><em class="fa fa-linkedin"></em></a></li>
+
+                                
+
+                              
+                            </ul>
+                        </div>
+                        <!-- //social-icon -->
+                    </div>
+                    <!-- //footer-right -->
+                </div>
+                <!-- //col-md-6 -->
+
+            </div>
+            <!-- //row -->
+        </div>
+        <!-- .copyright-text -->
+        
+        <!-- .inner-wrapper -->
+      
+      
+        <div class="offcanvas-wrapper hidden-lg hidden-md hidden-sm sidebar-offcanvas">
+            <div class="sidebar-nav">
+          
+                <div class="sidebar-header">
+                    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas">&times;</button>
+    
+                </div>
+          
+                <!--Menu-->
+                <ul>
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="focusarea.html" >FOCUS AREA<strong class=""></strong></a>
+                    </li>
+                  
+                   
+                  <li><a  title="">Solutions</a>
+                      <ul>
+                        <li><a href="Retailsolutions.html">Retail Solutions</a></li>
+                        <li><a href="RetailsAdvise.html">Retail Advisory Services</a></li>   
+                      </ul>
+                  </li>
+                  <li><a >PRODUCTS</a>
+                      <ul>
+                        <li> <a href="Palletenroll.html">RFAS-PalletEnroll</a></li>
+                        <li><a href="cmas.html">CMAS-ShrinkPin</a></li>
+                        <li><a href="digishowroom.html">DigiShowroom</a></li>
+                        <li> <a href="InteriorWaves.html" onclick="" >Interior-Waves</a></li>
+                        <li><a  href="IOTconduits.html">IoT Conduits </a></li>
+                        <li><a href="blocksense.html"  >BlockSense</a></li>
+                   
+                      </ul>
+                  </li>
+                    
+                    <li><a >LATEST NEWS</a>
+                        <ul>
+                            <li><a href='pressrelease.html'>Press Release</a></li>
+                            <li><a href='blog.html'>Blog</a></li>
+                                        </ul>
+                    </li>
+                    <li><a href="about.html" >About<strong class=""></strong></a></li>
+                    
+                  <li><a >Contact</a>
+                      <ul>
+                        <li><a href="location.html">Locations</a></li>
+                         
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="profiles.html">Profiles</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="clientarea.html">CLIENT AREA<strong class=""></strong></a>   </li>
+          
+                  
+                </ul>
+          
+            </div>
+            </div>
+<!-- .copyright-text -->
+</div>
+<!--.container -->
+
+</div>
+<!-- .inner-wrapper -->
+
+
+
+<!-- .offcanvas-wrapper -->
+
+</div>
+<!-- .row-offcanvas -->
+</div>
+<!-- .wrapper -->
+
+<!--Start script-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.scrollUp.js"></script>
+<script src="js/offcanvas.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/jquery.matchHeight.js"></script>
+<script src="js/script.js"></script>
+<!--End script    -->
+
+</body>
+</html>
